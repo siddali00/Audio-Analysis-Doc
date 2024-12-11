@@ -61,7 +61,7 @@ if st.button("Analyze Audio"):
                 st.markdown("### Google Sheet URL")
                 sheet_url = result.get("google_sheet_url", "No URL provided")
                 st.write(f"[View Google Sheet]({sheet_url})")
-                st.markdown("### Docs URL")
+                st.markdown("### Google Docs URL")
                 doc_url = result.get("google_doc_url", "No URL provided")
                 st.write(f"[View Google Doc]({doc_url})")
             else:
